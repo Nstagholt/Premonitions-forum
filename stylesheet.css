@@ -1,9 +1,39 @@
-.headline {
-    color: red;
-    text-align: center;
-    font-size: 50px;
+.Headerbar{
     background-color: black;
+    padding-bottom: 50px;
 }
-body {
+.logolinktext{
+    color: red;
+    font-size: 30px;
+    line-height: 30px;
+}
+.logolinktext:hover{
+    color: red;
+    text-decoration: none;
+    font-size: 40px;
+}
+.Headerlogobillede{
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.logoutknap{
+    color: white;
+    background-color: red;
+    font-size: 30px;
+    border-color: red;
+    border-width: thin;
+    margin-top: 20px;
+}
+.logoutknap:hover{
+    color: red;
+    text-decoration: none;
+    border-width: thin;
     background-color: black;
+    border-color: black;
+
+}
+body,html{
+    background-color:#202020;
 }
