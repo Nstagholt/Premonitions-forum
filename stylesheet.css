@@ -1,6 +1,12 @@
 .Headerbar{
     background-color: black;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: auto;
 }
 .logolinktext{
     color: red;
@@ -32,8 +38,43 @@
     border-width: thin;
     background-color: black;
     border-color: black;
+    font-size: 30px;
 
 }
-body,html{
+.Pullleft{
+    float: left;
+
+}
+
+.Pullright{
+    float: right;
+}
+
+
+html{
     background-color:#202020;
+}
+body{
+    background-color:#202020;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 25px;
+    margin-left: 25px;
+    color: red;
+}
+.Forumbaggrund{
+    background-color: darkred;
+    color: red;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a:hover{
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
 }
