@@ -25,12 +25,11 @@
     margin-top: 20px;
 }
 .logoutknap{
-    color: white;
+    color: black;
     background-color: red;
-    font-size: 30px;
+    font-size: 20px;
     border-color: red;
     border-width: thin;
-    margin-top: 20px;
 }
 .logoutknap:hover{
     color: red;
@@ -38,7 +37,6 @@
     border-width: thin;
     background-color: black;
     border-color: black;
-    font-size: 30px;
 
 }
 .Pullleft{
@@ -62,9 +60,15 @@ body{
     margin-left: 25px;
     color: red;
 }
-.Forumbaggrund{
+.Forummodul{
     background-color: darkred;
     color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Forumbaggrund{
+
 }
 
 a{
@@ -74,7 +78,26 @@ a{
 }
 
 a:hover{
-    font-size: larger;
     font-weight: 500;
     text-decoration: none;
+}
+
+h1{
+    font-size: 1.7em;
+    color: black;
+}
+
+h2{
+    font-size: 1.5em;
+    color: black;
+}
+
+h3{
+    font-size: 1.3em;
+    color: black;
+}
+
+h4{
+    font-size: 1.1em;
+    color: black;
 }
