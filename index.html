@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css">
     <title>Premonitions' forum</title>
 </head>
@@ -10,12 +11,14 @@
 <div class="Headerbar">
     <div class="row">
         <div class="col-lg-12">
-        <div class="Pullleft">
-            <a class="logolinktext"href="index.html" title="Premonitionsforum"><img class="Headerlogobillede" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScM21_ACfZg5f-bMo7QLEnyBJn0HHseD2hJQ&usqp=CAU">Premonitionsforum</a>
-        </div>
-        <div class="Pullright">
-            <a style="margin-top: 25px;" class="btn btn primary logoutknap" href="index.html?logout" title="Premonitionsforum">logout</a>
-        </div>
+            <div class="Pullleft">
+                <a class="logolinktext" href="index.html" title="Premonitionsforum"><img class="Headerlogobillede"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScM21_ACfZg5f-bMo7QLEnyBJn0HHseD2hJQ&usqp=CAU">Premonitionsforum</a>
+            </div>
+            <div class="Pullright">
+                <a style="margin-top: 25px;" class="btn btn primary logoutknap" href="index.html?logout"
+                    title="Premonitionsforum">logout</a>
+            </div>
         </div>
     </div>
 
@@ -25,21 +28,93 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 Forummodul">
-                <a href="a">Home</a> 
-                <a href="a">Kategori</a> 
+            <div class="col-lg-12 Forummodul Forummargin">
+                <a href="a">Home</a>
+                <a href="a">Kategori</a>
                 <a href="a">Diskussion</a>
             </div>
 
         </div>
 
         <div class="row Forummodul">
-           <div class="col-lg-12">
-            <h1>Kategori navn <a class="btn btn primary logoutknap" href="g">Ny diskussion</a></h1> 
-
-           </div>
-          
+            <div class="col-lg-12">
+                <div class="Pullleft">
+                    <h1>Kategori navn </h1>
+                </div>
+                <div class="Pullright">
+                    <a class="btn btn primary logoutknap" href="g">Ny diskussion</a>
+                </div>
+            </div>
         </div>
+
+        <div class="row Forumpad">
+            <table class="Forumtable"> 
+                <thead>
+                    <th>
+                        Diskussion
+                    </th>
+                    <th>
+                        Forfatter
+                    </th>
+                <th class="Pullright red">
+                    Svar
+                </th>
+                </thead>
+                <tr class="Forummodul">
+                    <td>
+                        <a href="#">Diskussions navn her</a>
+                    </td>
+                    <td>
+                        <a href="#">Noel Stagholt</a>
+                    </td>
+                    <td class="Pullright">
+                        11
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+
+        <div class="row Kategorimodul">
+            <div class="col-lg-12">
+                <div class="Pullleft">
+                    <h1>Kategori navn </h1>
+                </div>
+                <div class="Pullright">
+                    <a class="btn btn primary logoutknap" href="g">Ny diskussion</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row Forumpad">
+            <table class="Forumtable"> 
+                <thead>
+                    <th>
+                        Diskussion
+                    </th>
+                    <th>
+                        Forfatter
+                    </th>
+                <th class="Pullright red">
+                    Svar
+                </th>
+                </thead>
+                <tr class="Forummodul">
+                    <td>
+                        <a href="#">Diskussions navn her</a>
+                    </td>
+                    <td>
+                        <a href="#">Noel Stagholt</a>
+                    </td>
+                    <td class="Pullright">
+                        11
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
     </div>
 </body>
 
@@ -47,7 +122,6 @@
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="forum_hjem.js"></script>
 </html>

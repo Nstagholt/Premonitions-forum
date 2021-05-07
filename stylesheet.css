@@ -41,19 +41,21 @@
 }
 .Pullleft{
     float: left;
+    color: red;
 
 }
 
 .Pullright{
     float: right;
+    color: red;
 }
 
 
 html{
-    background-color:#202020;
+    background-color:#504c4c;
 }
 body{
-    background-color:#202020;
+    background-color:#504c4c;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 25px;
@@ -61,14 +63,44 @@ body{
     color: red;
 }
 .Forummodul{
-    background-color: darkred;
-    color: red;
+    background-color: #363333;
+    color:black;
     padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.Kategorimodul{
+    background-color: #363333;
+    color:black;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.Forumpad{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Forummargin{
     margin-bottom: 10px;
 }
 
-.Forumbaggrund{
+.Forumtable{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
 
+}
+
+.Forumtable th{
+    padding: 5px;
+}
+
+.Forumtable td{
+    padding: 5px;
 }
 
 a{
@@ -82,22 +114,31 @@ a:hover{
     text-decoration: none;
 }
 
+.Forumtable a{
+    color: red;
+}
+
 h1{
     font-size: 1.7em;
-    color: black;
+    color: red;
 }
 
 h2{
     font-size: 1.5em;
-    color: black;
+    color: red;
 }
 
 h3{
     font-size: 1.3em;
-    color: black;
+    color: red;
 }
 
 h4{
     font-size: 1.1em;
-    color: black;
+    color: red;
+}
+
+
+.red{
+    color: red;
 }
