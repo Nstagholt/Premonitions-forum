@@ -66,7 +66,7 @@ body{
     background-color: #363333;
     color:black;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-top: 25px;
 }
 
@@ -74,7 +74,6 @@ body{
     background-color: #363333;
     color:black;
     padding: 10px;
-    margin-bottom: 50px;
 }
 
 .Forumpad{
@@ -141,4 +140,9 @@ h4{
 
 .red{
     color: red;
+}
+
+.Newdiscussiontext{
+    width: 100%;
+    height: auto;
 }
