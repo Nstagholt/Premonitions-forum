@@ -1,0 +1,28 @@
+{
+  "name": "premonitions-forum",
+  "version": "1.0.0",
+  "description": "Et forum hvor medlemmer fra guilden \"Premonition\" i World Of Warcraft kan deltage og få informationer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nstagholt/Premonitions-forum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nstagholt/Premonitions-forum/issues"
+  },
+  "homepage": "https://github.com/Nstagholt/Premonitions-forum#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7"
+  }
+}

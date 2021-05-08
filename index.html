@@ -27,42 +27,75 @@
 <body>
 
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 Forummodul Forummargin">
-                <a href="a">Home</a>
-                <a href="a">Kategori</a>
-                <a href="a">Diskussion</a>
-            </div>
 
-        </div>
 
-        <div class="row Forummodul">
+        <div class="row Forummodul 1">
             <div class="col-lg-12">
                 <div class="Pullleft">
-                    <h1>Kategori navn </h1>
-                </div>
-                <div class="Pullright">
-                    <a class="btn btn primary logoutknap" href="g" onclick="startDiscussion(1);">Ny diskussion</a>
+                    <h1>Rules</h1>
                 </div>
             </div>
         </div>
 
         <div id="cat_new_discussiontitle" class="row Forumpad">
+
+        </div>
+
+        <div class="row Forumpad">
+            <table class="Forumtable">
+                <thead>
+                    <th>
+                        Diskussion
+                    </th>
+                    <th>
+                        Forfatter
+                    </th>
+                    <th class="Pullright red">
+                        Svar
+                    </th>
+                </thead>
+                <tr class="Forummodul">
+                    <td>
+                        <a href="#">Diskussions navn her</a>
+                    </td>
+                    <td>
+                        <a href="#">Noel Stagholt</a>
+                    </td>
+                    <td class="Pullright">
+                        11
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div id="cat_new_discussiontitle" class="row Forumpad">
             <div class="col-lg-12">
-                <form>
+                <form id="form2">
                     Title
                     <div class="form-group">
                         <input type="text" name="Newdiscussiontitle" size="40"></input>
                         <br />
-                    Thread
+                        Author
                         <textarea class="Newdiscussiontext" name="Newdiscussiontext"></textarea>
                     </div>
                 </form>
             </div>
         </div>
 
-        <div class="row Forumpad">
-            <table class="Forumtable">
+
+        <div class="row Kategorimodul">
+            <div class="col-lg-12">
+                <div class="Pullleft">
+                    <h1>Information</h1>
+                </div>
+                <div class="Pullright">
+                    <a class="btn btn primary logoutknap" href="#" onclick="startDiscussion(2);">Ny diskussion</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row Forumpad" >
+            <table class="Forumtable" id="2">
                 <thead>
                     <th>
                         Diskussion
@@ -87,22 +120,36 @@
                 </tr>
             </table>
 
+        </div>
+
+        <div id="cat_new_discussiontitle" class="row Forumpad">
+            <div class="col-lg-12">
+                <form id="form3">
+                    Title
+                    <div class="form-group">
+                        <input type="text" name="Newdiscussiontitle" size="40"></input>
+                        <br />
+                        Author
+                        <textarea class="Newdiscussiontext" name="Newdiscussiontext"></textarea>
+                    </div>
+                </form>
+            </div>
         </div>
 
 
         <div class="row Kategorimodul">
             <div class="col-lg-12">
                 <div class="Pullleft">
-                    <h1>Kategori navn </h1>
+                    <h1>Transmog sets</h1>
                 </div>
                 <div class="Pullright">
-                    <a class="btn btn primary logoutknap" href="g" onclick="startDiscussion(2);">Ny diskussion</a>
+                    <a class="btn btn primary logoutknap" href="#" onclick="startDiscussion(3);">Ny diskussion</a>
                 </div>
             </div>
         </div>
 
-        <div class="row Forumpad">
-            <table class="Forumtable">
+        <div class="row Forumpad" >
+            <table class="Forumtable" id="3">
                 <thead>
                     <th>
                         Diskussion
@@ -129,6 +176,113 @@
 
         </div>
 
+        <div class="row Forumpad">
+            <div class="col-lg-12">
+                <form id="form4">
+                    Title
+                    <div class="form-group">
+                        <input type="text" name="Newdiscussiontitle" size="40"></input>
+                        <br />
+                        Author
+                        <textarea class="Newdiscussiontext" name="Newdiscussiontext"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="row Kategorimodul">
+            <div class="col-lg-12">
+                <div class="Pullleft">
+                    <h1>PvE</h1>
+                </div>
+                <div class="Pullright">
+                    <a class="btn btn primary logoutknap" href="#" onclick="startDiscussion(4);">Ny diskussion</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row Forumpad" >
+            <table class="Forumtable" id="4">
+                <thead>
+                    <th>
+                        Diskussion
+                    </th>
+                    <th>
+                        Forfatter
+                    </th>
+                    <th class="Pullright red">
+                        Svar
+                    </th>
+                </thead>
+                <tr class="Forummodul">
+                    <td>
+                        <a href="#">Diskussions navn her</a>
+                    </td>
+                    <td>
+                        <a href="#">Noel Stagholt</a>
+                    </td>
+                    <td class="Pullright">
+                        11
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div id="cat_new_discussiontitle" class="row Forumpad">
+            <div class="col-lg-12">
+                <form id="form5">
+                    Title
+                    <div class="form-group">
+                        <input type="text" name="Newdiscussiontitle" size="40"></input>
+                        <br />
+                        Author
+                        <textarea class="Newdiscussiontext" name="Newdiscussiontext"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="row Kategorimodul">
+            <div class="col-lg-12">
+                <div class="Pullleft">
+                    <h1>PvP</h1>
+                </div>
+                <div class="Pullright">
+                    <a class="btn btn primary logoutknap" href="#" onclick="startDiscussion(5);">Ny diskussion</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row Forumpad" >
+            <table class="Forumtable" id="5">
+                <thead>
+                    <th>
+                        Diskussion
+                    </th>
+                    <th>
+                        Forfatter
+                    </th>
+                    <th class="Pullright red">
+                        Svar
+                    </th>
+                </thead>
+                <tr class="Forummodul">
+                    <td>
+                        <a href="#">Diskussions navn her</a>
+                    </td>
+                    <td>
+                        <a href="#">Noel Stagholt</a>
+                    </td>
+                    <td class="Pullright">
+                        11
+                    </td>
+                </tr>
+            </table>
+
+        </div>
     </div>
 </body>
 
